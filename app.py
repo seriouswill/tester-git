@@ -27,11 +27,10 @@ def chatbot():
         print(answer_list)
         if len(answer_list) > 5:
             answer_list.remove(answer_list[0])
-        else:
-            pass
+        
         return render_template("chatbot.html", message=message, res=res, answer_list=answer_list)
-    else:
-        return render_template("chatbot.html", message="", answer_list=answer_list)
+    
+    return render_template("chatbot.html", message="", answer_list=answer_list)
 
 
 if __name__ == "__main__":
