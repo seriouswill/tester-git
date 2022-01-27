@@ -1,11 +1,9 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Chatbot!</title>
-  </head>
+{% extends "base.html" %}
+{% block title %}
+    <title>Main Page</title>
+    {% endblock %}
   <body class="text-center">
-    {% extends "base.html" %}
+    
     {% block content %}
     
     <h1> ChatBot! </h1>
@@ -16,21 +14,20 @@
     <div id="chatbox" class="card text-center">
         <div id="answerbox">
             <img src="../static/default.png" alt="robot" id="robotimg">
-            <div class="card" id="willbotsays">
+            <div class="card" id="willbotsays">         <!-- optional img -->
                 <h3>WillBot says...</h3>
-                  {% for answer in answer_list %}
-                  <h1>{{ answer }}</h1>
-                  {% endfor %}
-                  <br><br>
-                  <form role="form" method='POST' action='/chatbot' class="">
-          <div class="form-group text-center" id="questionbox">
-            <input type="text" name="message" class="" id="message-box" placeholder="Enter question" style="max-width: 300px;" autofocus required>
-          </div>
-          <button type="submit" style="display: none" class="btn btn-default">Submit</button>
-              </form>
+                {% for answer in answer_list %}         <!-- optional list display loop for 5 answers... -->
+                <h2 class="glow">{{answer}}</h2>
+                {% endfor %}
+                <br><br>
+                <form role="form" method='POST' action='/chatbot' class="">
+                  <div class="form-group text-center" id="questionbox">
+                    <input type="text" name="message" class="" id="message-box" placeholder="Enter question" style="max-width: 300px;" autofocus required>
+                  </div>
+                  <button type="submit" style="display: none" class="btn btn-default">Submit</button>
+                </form>
             </div>
-            
-          </div>
+        </div>
     </div>
     {% endblock %}
   </body>

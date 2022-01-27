@@ -42,3 +42,6 @@ Scripts
 Lib
 Include
 FlaskBot
+training.py
+pyvenv.cfg
+__pycache__

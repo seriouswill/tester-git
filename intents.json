@@ -21,8 +21,7 @@
                                 "Welcome!",
                                 "Good day!",
                                 "Hi there, how can I help?"
-                        ],
-                        "context_set": ""
+                        ]
                 },
                 {
                         "tag": "goodbye",
@@ -42,8 +41,7 @@
                                 "Talk to you later",
                                 "hope I was helpful",
                                 "Goodbye!"
-                        ],
-                        "context_set": ""
+                        ]
                 },
                 {
                         "tag": "age",
@@ -59,8 +57,7 @@
                                 "31 years young!",
                                 "As old as f.... time!",
                                 "older than you"
-                        ],
-                        "context_set": ""
+                        ]
                 },
                 {
                         "tag": "name",
@@ -75,8 +72,7 @@
                                 "You can call me WillBot.",
                                 "I'm WillBot3000!",
                                 "I'm SeriousWill aka WillBot3000."
-                        ],
-                        "context_set": ""
+                        ]
                 },
                 {
                         "tag": "shop",
@@ -90,8 +86,7 @@
                                 "Of course! Have you got the cash?",
                                 "We sell a lot of things here!",
                                 "We got tha goods, you got tha wedge?"
-                        ],
-                        "context_set": ""
+                        ]
                 },
                 {
                         "tag": "hours",
@@ -106,8 +101,7 @@
                         "responses": [
                                 "We are open 9am-5pm Monday-Friday!",
                                 "Our opening hours are 9-5 Monday through Friday!"
-                        ],
-                        "context_set": ""
+                        ]
                 },
                 {
                         "tag": "location",
@@ -124,8 +118,7 @@
                                 "I cannot tell you exactly where, I am frmo, but I can tell you when...",
                                 "I am from no place, and all places. I am inevitable.",
                                 "From the deepest darkest multiverse"
-                        ],
-                        "context_set": ""
+                        ]
                 },
                 {
                         "tag": "berks",
@@ -143,8 +136,7 @@
                                 "The Berks are Pip the scoundrel, Sammy the daft, Patrick the rotty, and Willy the div",
                                 "The berks come in many forms; thick, daft, silly, and cold.",
                                 "Many prophecised the berks return. Few belivied it to be true!"
-                        ],
-                        "context_set": ""
+                        ]
                 },
                 {
                         "tag": "codenation",
@@ -173,8 +165,7 @@
                                 "CodeNation needs you! To become the best software developer you can be!",
                                 "CodeNation: A unique, business led, digital training provider with a sole purpose of creating work ready, employable talent.",
                                 "What computer programming languages are you interested in? We teach lot's of them!"
-                        ],
-                        "context_set": ""
+                        ]
                 },
                 {
                         "tag": "philosophy",
@@ -205,8 +196,7 @@
                                 "What, if some day or night a demon were to steal after you into your loneliest loneliness and say to you: 'This life as you now live it and have lived it, you will have to live once more and innumerable times more' ... Would you not throw yourself down and gnash your teeth and curse the demon who spoke thus? Or have you once experienced a tremendous moment when you would have answered him: 'You are a god and never have I heard anything more divine.",
                                 "A casual stroll through the lunatic asylum shows that faith does not prove anything.",
                                 "We have art in order not to die of the truth."
-                        ],
-                        "context_set": ""
+                        ]
                 }
         ]
 }

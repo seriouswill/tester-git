@@ -42,6 +42,7 @@ def predict_class(sentence):
     return_list = []
     for r in results:
         return_list.append({'intent': classes[r[0]], 'probability': str(r[1])})
+    print(return_list) 
     return return_list
 
 
@@ -55,8 +56,9 @@ def get_response(intents_list, intents_json):
     return result
 
 
-print("Go! The BOT is running!")
+# print("WillBot is running, please ask a question...")
 
+# # optional terminal section
 # while True:
 #     message = input("")
 #     ints = predict_class(message)
